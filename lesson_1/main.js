@@ -740,7 +740,7 @@ function getUsersByIds(userIds) {
         }, 1000)
     })
 }
-getComments()
+getComment()
     .then(function(comments) {
         var userIds = comments.map(function(item) {
             return item['user_id'];
