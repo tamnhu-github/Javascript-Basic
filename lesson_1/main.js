@@ -714,7 +714,7 @@ var comments = [
     {
         id: 1,
         user_id: 1,
-        content: 'Hi Nhu'
+        content: 'Hi guys'
     },
     {
         id: 2,
@@ -740,7 +740,7 @@ function getUsersByIds(userIds) {
         }, 1000)
     })
 }
-getCommentsByDev()
+getComments()
     .then(function(comments) {
         var userIds = comments.map(function(item) {
             return item['user_id'];
