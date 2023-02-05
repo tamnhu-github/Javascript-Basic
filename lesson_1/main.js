@@ -714,7 +714,7 @@ var comments = [
     {
         id: 1,
         user_id: 1,
-        content: 'Hi guys!'
+        content: 'Hi guys'
     },
     {
         id: 2,
